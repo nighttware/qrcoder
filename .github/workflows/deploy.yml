@@ -1,0 +1,27 @@
+name: Deploy on Master
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+permissions:
+    contents: read
+
+concurrency:
+    group: deploy-master
+    cancel-in-progress: true
+
+jobs:
+    build-and-deploy:
+        runs-on: self-hosted
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6
+
+            - name: Build and deploy with Docker Compose
+              run: docker compose up -d --build
+
+            - name: Show service status
+              run: docker compose ps

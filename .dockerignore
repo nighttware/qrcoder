@@ -1,0 +1,35 @@
+# Dependências — serão reinstaladas no build
+node_modules/
+
+# Output de build anterior (não deve influenciar o stage de builder)
+dist/
+
+# Tauri — não faz parte do build web
+src-tauri/
+
+# Git
+.git/
+.gitignore
+
+# CI
+.github/
+
+# Docs e assets desnecessários
+docs/
+*.csv
+
+# Arquivos de ambiente local
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+bun-debug.log*

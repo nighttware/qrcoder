@@ -1,0 +1,82 @@
+{
+  "header": {
+    "subtitle": "Gerador desktop de QR codes",
+    "pngBadge": "PNG 300 dpi"
+  },
+  "languageSwitcher": {
+    "ariaLabel": "Selecionar idioma",
+    "options": {
+      "pt-BR": "Português",
+      "en": "English"
+    }
+  },
+  "controls": {
+    "linkLabel": "Link",
+    "linkPlaceholder": "https://exemplo.com ou caminho/intranet",
+    "legendLabel": "Legenda",
+    "legendPlaceholder": "Texto opcional abaixo do QR",
+    "addButton": "Adicionar",
+    "clearButton": "Limpar",
+    "csvImport": "Importar CSV",
+    "csvHintIdle": "Clique para selecionar ou arraste um CSV aqui.",
+    "csvHintBusy": "Aguarde o processamento atual.",
+    "csvColumns": "Colunas aceitas: Link e Legenda.",
+    "qrReady": "nenhum QR pronto | 1 QR pronto | {count} QRs prontos"
+  },
+  "preview": {
+    "title": "Prévia",
+    "empty": "Nenhum QR gerado",
+    "ofTotal": "{current} de {total}",
+    "generating": "Gerando QR...",
+    "removeAria": "Remover QR atual",
+    "downloadPng": "Baixar PNG",
+    "downloadZip": "Baixar ZIP"
+  },
+  "carousel": {
+    "previousAria": "QR anterior",
+    "nextAria": "Próximo QR",
+    "empty": "Nenhum QR gerado",
+    "emptyHint": "Digite uma URL, IP, caminho ou importe um CSV.",
+    "altWithLegend": "QR code: {legend}",
+    "altDefault": "QR code gerado"
+  },
+  "loading": {
+    "csvTitle": "Gerando QR codes",
+    "csvReading": "Lendo o arquivo CSV...",
+    "csvProgressGenerated": "nenhum QR gerado | 1 QR gerado | {count} QRs gerados",
+    "csvProgressIgnored": "nenhuma linha ignorada. | 1 linha ignorada. | {count} linhas ignoradas.",
+    "csvEmpty": "Nenhuma linha com dados foi encontrada.",
+    "zipTitle": "Compactando arquivos",
+    "zipDescription": "Gerando ZIP com {count} QR codes.",
+    "pngTitle": "Preparando arquivo",
+    "pngDescription": "Preparando PNG para download.",
+    "progressLine": "{current} de {total} processados"
+  },
+  "messages": {
+    "invalidLink": "Informe uma URL, IP ou caminho de intranet válido.",
+    "qrFailed": "Não foi possível gerar este QR.",
+    "csvInvalidFile": "Selecione ou arraste um arquivo CSV válido.",
+    "csvReadFailed": "Não foi possível ler o CSV.",
+    "qrAdded": "QR adicionado à lista.",
+    "listClearedKeepDraft": "Lista limpa. Prévia manual mantida.",
+    "listCleared": "Lista limpa.",
+    "qrRemoved": "QR removido da lista.",
+    "listEmpty": "Lista vazia.",
+    "downloadPngOk": "PNG salvo.",
+    "downloadZipOk": "ZIP salvo.",
+    "downloadCanceled": "Download cancelado.",
+    "downloadFailed": "Não foi possível salvar o arquivo."
+  },
+  "csv": {
+    "columnLink": "Link",
+    "columnLegend": "Legenda",
+    "missingLinkColumn": "CSV precisa conter a coluna Link.",
+    "summaryEmpty": "Nenhum link ou caminho válido encontrado no CSV.",
+    "summaryGenerated": "nenhum QR carregado. | 1 QR carregado. | {count} QRs carregados.",
+    "summaryIgnored": "nenhuma linha ignorada. | 1 linha ignorada. | {count} linhas ignoradas.",
+    "summaryWarnings": "nenhum aviso de leitura. | 1 aviso de leitura. | {count} avisos de leitura."
+  },
+  "qr": {
+    "canvasUnavailable": "Canvas 2D indisponível."
+  }
+}

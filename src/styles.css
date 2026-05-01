@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --color-app-bg: #eef2f3;
+  --color-app-text: #18212f;
+  --color-heading: #233041;
+  --color-muted: #53616f;
+  --color-surface: #ffffff;
+  --color-input-bg: #fbfcfd;
+  --color-panel-bg: #f8fbfb;
+  --color-soft-bg: #f3f6f7;
+  --color-soft-hover: #f2f6f7;
+  --color-carousel-hover: #edf4f2;
+  --color-border: #cbd6d6;
+  --color-border-soft: #dbe3e3;
+  --color-border-strong: #93a4a4;
+  --color-accent: #0f766e;
+  --color-accent-hover: #0d625c;
+  --color-accent-disabled: #9ab8b5;
+  --color-primary: #233041;
+  --color-primary-hover: #111827;
+  --color-primary-disabled: #98a4ad;
+  --color-danger: #8a1f11;
+  --color-danger-bg: #fff3f0;
+  --color-error: #b42318;
+  --color-info: #34515f;
+  --color-icon-muted: #93a4a4;
+  --color-focus-ring: rgb(15 118 110 / 0.15);
+  --color-overlay-bg: rgb(24 33 47 / 0.38);
+  --color-overlay-shadow: rgb(17 24 39 / 0.18);
+  --color-qr-dark: #111827;
+  --color-qr-light: #ffffff;
+
+  color: var(--color-app-text);
+  background: var(--color-app-bg);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
